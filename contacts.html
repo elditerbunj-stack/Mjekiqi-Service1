@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title data-i18n="pageTitle">Contact | Mjekiqi Service</title>
+
+  <link rel="stylesheet" href="../styles/contacts.css" />
+  <link rel="shortcut icon" href="../assets/images/IMG_3081.png" type="image/x-icon">
+  <script src="../scripts/I18n-contacts.js"></script>
+</head>
+
+<body>
+
+  <header class="navbar">
+    <nav>
+      <img src="../assets/images/logo.png" alt="Logo" class="logo" />
+
+      <ul>
+         <select id="languageSwitcher" aria-label="Language selector">
+        <option value="de">Deutsch</option>
+        <option value="en" selected>English</option>
+        <option value="sq">Shqip</option>
+        <option value="nl">Dutch</option>
+        <option value="cs">Czech</option>
+      </select>
+        <li><a href="../index.html" data-i18n="home">HOME</a></li>
+        <li><a href="./about.html" data-i18n="about">ABOUT</a></li>
+        <li><a href="./works.html" data-i18n="works">WORKS</a></li>
+        <li><a href="./contacts.html" data-i18n="contact">CONTACT</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1 data-i18n="heroTitle">Contact Us</h1>
+    <p data-i18n="heroDesc">Get in touch with us for your next construction project.</p>
+  </section>
+
+  <section class="contact-section">
+    <div class="contact-grid">
+
+      <div class="contact-info">
+        <h2 data-i18n="contactInfoTitle">Let’s Talk</h2>
+        <p data-i18n="contactInfoDesc">
+          Whether you’re planning a renovation, drywall installation,
+          or full building management — we’re here to help.
+        </p>
+
+        <div class="info-item">
+          <strong data-i18n="addressLabel">Address</strong>
+          <p data-i18n="addressValue">August-Prechter-Str. 4<br>85290 Geisenfeld, Germany</p>
+        </div>
+
+        <div class="info-item">
+          <strong data-i18n="phoneLabel">Phone</strong>
+          <a href="tel:+491723595605" data-i18n="phoneValue">+49 172 3595605</a>
+        </div>
+
+        <div class="info-item">
+          <strong data-i18n="emailLabel">Email</strong>
+          <a href="mailto:info@mjekiqiservice.com" data-i18n="emailValue">info@mjekiqiservice.com</a>
+        </div>
+      </div>
+
+      <div class="contact-form">
+        <h2 data-i18n="formTitle">Send Us a Message</h2>
+
+        <form>
+          <input type="text" placeholder="Your Name" data-i18n-placeholder="formName" required>
+          <input type="email" placeholder="Your Email" data-i18n-placeholder="formEmail" required>
+          <input type="text" placeholder="Subject" data-i18n-placeholder="formSubject">
+          <textarea rows="5" placeholder="Your Message" data-i18n-placeholder="formMessage" required></textarea>
+          <button type="submit" data-i18n="formBtn">Send Message</button>
+        </form>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="map-section">
+    <iframe src="https://www.google.com/maps?q=August-Prechter-Str.4,85290,Geisenfeld,Germany&output=embed"
+      loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+    </iframe>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-container">
+
+      <div class="footer-brand">
+        <h3 data-i18n="footerBrandTitle">Mjekiqi Service</h3>
+        <p data-i18n="footerDesc">
+          Your trusted partner in drywall, renovation,
+          and full building management.
+        </p>
+      </div>
+
+      <div class="footer-links">
+        <h3 data-i18n="services">Services</h3>
+        <ul>
+          <li data-i18n="service1">Drywall & Ceiling</li>
+          <li data-i18n="service2">Renovations</li>
+          <li data-i18n="service3">Interior Finishing</li>
+          <li data-i18n="service4">Building Management</li>
+        </ul>
+      </div>
+
+      <div class="footer-contact">
+        <h3 data-i18n="contactTitle">Contact</h3>
+        <p data-i18n="contactCountry">Germany</p>
+        <a href="tel:+491723595605" data-i18n="phoneValue">+49 172 3595605</a><br>
+        <a href="mailto:info@mjekiqiservice.com" data-i18n="emailValue">info@mjekiqiservice.com</a>
+      </div>
+
+    </div>
+
+    <div class="footer-bottom">
+      <p data-i18n="footerCopyright">© 2026 Mjekiqi Service. All rights reserved.</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

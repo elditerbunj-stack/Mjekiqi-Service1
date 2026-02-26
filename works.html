@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Works | Mjekiqi Service</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+ 
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+ <script src="../scripts/i18n-works.js"></script>
+  <link rel="stylesheet" href="../styles/works.css" />
+  <link rel="shortcut icon" href="../assets/images/IMG_3081.png" type="image/x-icon">
+</head>
+<body>
+
+<header class="navbar">
+  <nav>
+    <img src="../assets/images/logo.png" alt="Logo" class="logo" />
+
+    <ul>
+      <select id="languageSwitcher" aria-label="Language selector">
+        <option value="de">Deutsch</option>
+        <option value="en" selected>English</option>
+        <option value="sq">Shqip</option>
+        <option value="nl">Dutch</option>
+        <option value="cs">Czech</option>
+      </select>
+      <li><a href="../index.html" data-i18n="home">HOME</a></li>
+      <li><a href="../pages/about.html" data-i18n="about">ABOUT</a></li>
+      <li><a href="../pages/works.html" data-i18n="works">WORKS</a></li>
+      <li><a href="../pages/contacts.html" data-i18n="contact">CONTACT</a></li>
+    </ul>
+  </nav>
+</header>
+
+<section class="hero">
+  <h1 data-i18n="heroTitle">Our Projects</h1>
+  <p data-i18n="heroSubtitle">
+    Take a look at some of our completed drywall, renovation, and interior projects.
+  </p>
+</section>
+
+<section class="works-gallery">
+  <h2 class="center">
+    <i class="fa-solid fa-diagram-project"></i> 
+    <span data-i18n="featuredWork">Featured Work</span>
+  </h2>
+
+  <p class="center" data-i18n="browseCategory">
+    Browse our projects by category.
+  </p>
+
+  <div class="sliders-row">
+
+    <div class="mini-slider">
+      <h4>
+        <i class="fa-solid fa-square-poll-vertical"></i> 
+        <span data-i18n="drywall">Drywall</span>
+      </h4>
+      <div class="slider-wrapper">
+        <div class="slider-track">
+          <img src="../assets/images/drywall,bef.png" alt="Drywall Before">
+          <img src="../assets/images/drywall,aft.png" alt="Drywall After">
+          <img src="../assets/images/drywall2,bef.png" alt="Drywall Before 2">
+          <img src="../assets/images/drywall2,aft.png" alt="Drywall After 2">
+        </div>
+        <div class="arrow left">&#10094;</div>
+        <div class="arrow right">&#10095;</div>
+      </div>
+    </div>
+
+    <div class="mini-slider">
+      <h4>
+        <i class="fa-solid fa-layer-group"></i> 
+        <span data-i18n="ceilings">Ceilings</span>
+      </h4>
+      <div class="slider-wrapper">
+        <div class="slider-track">
+          <img src="../assets/images/celing,bef.png" alt="Ceiling Before">
+          <img src="../assets/images/celing,aft.png" alt="Ceiling After">
+          <img src="../assets/images/celing2,bef.png" alt="Ceiling Before 2">
+          <img src="../assets/images/celing2,aft.png" alt="Ceiling After 2">
+        </div>
+        <div class="arrow left">&#10094;</div>
+        <div class="arrow right">&#10095;</div>
+      </div>
+    </div>
+
+    <div class="mini-slider">
+      <h4>
+        <i class="fa-solid fa-hammer"></i> 
+        <span data-i18n="renovations">Renovations</span>
+      </h4>
+      <div class="slider-wrapper">
+        <div class="slider-track">
+          <img src="../assets/images/renew,bef.png" alt="Renovation Before">
+          <img src="../assets/images/renew,aft.png" alt="Renovation After">
+          <img src="../assets/images/renew2,bef.png" alt="Renovation Before 2">
+          <img src="../assets/images/renew2,aft.png" alt="Renovation After 2">
+        </div>
+        <div class="arrow left">&#10094;</div>
+        <div class="arrow right">&#10095;</div>
+      </div>
+    </div>
+
+    <div class="mini-slider">
+      <h4>
+        <i class="fa-solid fa-couch"></i> 
+        <span data-i18n="interiors">Interiors</span>
+      </h4>
+      <div class="slider-wrapper">
+        <div class="slider-track">
+          <img src="../assets/images/int,bef.png" alt="Interior Before">
+          <img src="../assets/images/int,aft.png" alt="Interior After">
+          <img src="../assets/images/int2,bef.png" alt="Interior Before 2">
+          <img src="../assets/images/int2,aft.png" alt="Interior After 2">
+        </div>
+        <div class="arrow left">&#10094;</div>
+        <div class="arrow right">&#10095;</div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<div id="lightbox" class="lightbox">
+  <span class="lightbox-close">&times;</span>
+  <img class="lightbox-img" src="" alt="Enlarged Image">
+</div>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-brand">
+      <img src="../assets/images/logo.png" alt="Mjekiqi Service Logo">
+      <p data-i18n="heroDesc">
+        Mjekiqi Service is your trusted partner in drywall, renovation,
+        and full building management — delivering quality, precision,
+        and reliability in every project.
+      </p>
+    </div>
+
+    <div class="footer-links">
+      <h3 data-i18n="services">Services</h3>
+      <ul>
+        <li data-i18n="service1">Drywall & Ceiling</li>
+        <li data-i18n="service2">Renovations</li>
+        <li data-i18n="service3">Interior Finishing</li>
+        <li data-i18n="service4">Building Management</li>
+      </ul>
+    </div>
+
+    <div class="footer-contact">
+      <h3 data-i18n="contactTitle">Contact</h3>
+      <p>Germany</p>
+      <a href="tel:+49 172 3595605" style="text-decoration: none; color: #94a3b8;">+49 172 3595605</a>
+      <a href="mailto:info@mjekiqiservice.com" style="text-decoration: none; color:#94a3b8;">info@mjekiqiservice.com</a>
+    </div>
+
+    <div class="footer-map">
+      <h3 data-i18n="locationTitle">Location</h3>
+      <p>August-Prechter-Str. 4<br>85290 Geisenfeld, Germany</p>
+
+      <iframe src="https://www.google.com/maps?q=August-Prechter-Str.4,85290,Geisenfeld,Germany&output=embed"
+        width="100%" height="180" style="border:0; border-radius:8px;" allowfullscreen="" loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade">
+      </iframe>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p data-i18n="footerCopyright">© 2026 Mjekiqi Service. All rights reserved.</p>
+  </div>
+</footer>
+
+
+<script>
+
+  const lightbox = document.getElementById('lightbox');
+  const lightboxImg = document.querySelector('.lightbox-img');
+  const lightboxClose = document.querySelector('.lightbox-close');
+
+  document.querySelectorAll('.slider-track img').forEach(img => {
+    img.addEventListener('click', () => {
+      lightbox.style.display = 'flex';
+      lightboxImg.src = img.src;
+    });
+  });
+
+  lightboxClose.addEventListener('click', () => {
+    lightbox.style.display = 'none';
+  });
+
+  lightbox.addEventListener('click', (e) => {
+    if (e.target === lightbox) lightbox.style.display = 'none';
+  });
+
+  document.querySelectorAll('.mini-slider').forEach(slider => {
+    const track = slider.querySelector('.slider-track');
+    const leftArrow = slider.querySelector('.arrow.left');
+    const rightArrow = slider.querySelector('.arrow.right');
+    const scrollAmount = track.clientWidth;
+
+    leftArrow.addEventListener('click', () => track.scrollBy({ left: -scrollAmount, behavior: 'smooth' }));
+    rightArrow.addEventListener('click', () => track.scrollBy({ left: scrollAmount, behavior: 'smooth' }));
+  });
+</script>
+
+</body>
+</html>
